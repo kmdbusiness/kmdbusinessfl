@@ -783,3 +783,7 @@ ul.templatemo-project-gallery  li  a img:hover {
   border-radius:10px !important;
 }
 
+.fontSize16 {
+	font-size: 16px;
+}
+
