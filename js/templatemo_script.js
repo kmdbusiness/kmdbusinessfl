@@ -96,7 +96,7 @@ function changeLanguage(){
 				document.getElementById("titleHeader").innerHTML = "Notary Public Services in Broward & South Florida";
 				document.getElementById("slogan").innerHTML = "Welcome to ";
 				document.getElementById("slogan1").innerHTML = "We speak Spanish and English.";
-				document.getElementById("slogan2").innerHTML = "In the US, a notary public is not a lawyer and cannot provide legal representation and legal advise.";
+				document.getElementById("slogan2").innerHTML = "In the US, a notary public is not a lawyer and cannot provide legal representation or legal advise.";
 				document.getElementById("hCarousel1").innerHTML = "Welcome to KMD Bussiness Consulting & Notary Public";
 				document.getElementById("pCarousel1").innerHTML = "Weddings | Contracts | Affidavits | Wills | Business Consulting";
 				document.getElementById("hCarousel2").innerHTML = "On-demand 24/7";
