@@ -96,7 +96,7 @@ function changeLanguage(){
 				document.getElementById("titleHeader").innerHTML = "Notary Public Services in Broward & South Florida";
 				document.getElementById("slogan").innerHTML = "Welcome to ";
 				document.getElementById("slogan1").innerHTML = "We speak Spanish and English.";
-				document.getElementById("slogan2").innerHTML = "In the US, a notary public is not a lawyer and cannot provide legal representation.";
+				document.getElementById("slogan2").innerHTML = "In the US, a notary public is not a lawyer and cannot provide legal representation and legal advise.";
 				document.getElementById("hCarousel1").innerHTML = "Welcome to KMD Bussiness Consulting & Notary Public";
 				document.getElementById("pCarousel1").innerHTML = "Weddings | Contracts | Affidavits | Wills | Business Consulting";
 				document.getElementById("hCarousel2").innerHTML = "On-demand 24/7";
@@ -108,7 +108,7 @@ function changeLanguage(){
 				document.getElementById("pCarousel4b").innerHTML = "Need help outside regular business hours? We’ve got you covered.";
 				document.getElementById("botonCarousel").innerHTML = "We respond in less than 24 hours";
 				document.getElementById("headerService").innerHTML = "SERVICES";
-				document.getElementById("blogHeader1").innerHTML = "NOTARY PUBLIC SERVICE";
+				document.getElementById("blogHeader1").innerHTML = "WHAT DOES A NOTARY PUBLIC DO?";
 				document.getElementById("blog1").innerHTML = "We help with personal documents like wills, power of attorney forms, affidavits, and school permission slips. Whether it’s for legal, medical, or financial purposes, we ensure your documents are properly notarized.";
 				document.getElementById("blogHeader2").innerHTML = "EXIT PERMIT FOR MINORS";
 				document.getElementById("blog2").innerHTML = "Exit Permit and Apostille. Obtaining this document and its corresponding Apostille ensures that the minor can travel safely and legally.";
@@ -141,7 +141,7 @@ function changeLanguage(){
 				document.getElementById("titleHeader").innerHTML = "Servicios de Notary Public en el sur de la Florida";
 				document.getElementById("slogan").innerHTML = "Bienvenido a ";
 				document.getElementById("slogan1").innerHTML = "Hablamos Español e Inglés";
-				document.getElementById("slogan2").innerHTML = "En Estados Unidos, un notario público no es un abogado y no puede proporcionar representación legal.";
+				document.getElementById("slogan2").innerHTML = "En Estados Unidos, un notario público no es un abogado y no puede proporcionar representación legal ni consejos legales.";
 				document.getElementById("hCarousel1").innerHTML = "Bienvenido a KMD Bussiness Consulting & Notary Public";
 				document.getElementById("pCarousel1").innerHTML = "Bodas | Contratos | Declaraciones juradas | Testamentos | Consultoría empresarial";
 				document.getElementById("hCarousel2").innerHTML = "Disponibles 24/7";
@@ -153,7 +153,7 @@ function changeLanguage(){
 				document.getElementById("pCarousel4b").innerHTML = "¿Necesitas ayuda fuera del horario laboral? Te ayudamos.";
 				document.getElementById("botonCarousel").innerHTML = "Respondemos en menos de 24 horas";
 				document.getElementById("headerService").innerHTML = "SERVICIOS";
-				document.getElementById("blogHeader1").innerHTML = "SERVICIO DE NOTARY PUBLIC";
+				document.getElementById("blogHeader1").innerHTML = "¿QUÉ HACE UN NOTARY PUBLIC?";
 				document.getElementById("blog1").innerHTML = "Ayudamos con documentos personales como testamentos, poderes notariales, declaraciones juradas y permisos escolares. Ya sea para fines legales, médicos o financieros, nos aseguramos de que sus documentos estén debidamente notariados.";
 				document.getElementById("blogHeader2").innerHTML = "PERMISO DE SALIDA PARA MENORES";
 				document.getElementById("blog2").innerHTML = "Permiso de Salida y Apostilla. Obtener este documento y su correspondiente Apostilla garantiza que el menor pueda viajar de forma segura y legal.";
