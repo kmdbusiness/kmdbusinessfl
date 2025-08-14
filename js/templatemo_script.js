@@ -213,3 +213,55 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//EmailJS
+const emailButton = document.getElementById('emailButton');
+const formEmail = document.getElementById('formEmail');
+
+document.getElementById('formEmail')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+   
+//Validar campos
+const name = document.getElementById('name').value;
+if(name === undefined || name === null || name === ''){
+	alert("You must enter the Name");
+	return;	
+}
+const message = document.getElementById('message').value;
+if(message === undefined || message === null || message === ''){
+	alert("You must enter the Message");
+	return;	
+}
+const email = document.getElementById('email').value;
+if(email === undefined || email === null || email === ''){
+	alert("You must enter the Email");
+	return;
+}
+let isValidEmail = validateEmail(email);
+if(!isValidEmail){
+	alert("Your Email is invalid");
+	return;
+}
+
+   emailButton.value = 'Sending...';
+   const serviceID = 'contact_email_service';
+   const templateID = 'template_bnrv3rk';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      emailButton.value = 'Send Email';
+	  formEmail.reset();      
+    }, (err) => {
+      emailButton.value = 'Send Email';
+	  formEmail.reset();
+    });
+});
+
+//Validar Email
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+//End EmailJS
