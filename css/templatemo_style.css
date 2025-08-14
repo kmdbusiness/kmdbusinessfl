@@ -814,3 +814,8 @@ ul.templatemo-project-gallery  li  a img:hover {
   border: none;
   border-radius: 4px !important;
 }
+
+.notificacionText {
+	color: red;
+	font-size: 12px;
+}
