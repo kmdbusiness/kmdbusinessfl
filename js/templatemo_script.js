@@ -217,6 +217,7 @@ function topFunction() {
 //EmailJS
 const emailButton = document.getElementById('emailButton');
 const formEmail = document.getElementById('formEmail');
+const emailNotification = document.getElementById('emailNotification');
 
 document.getElementById('formEmail')
  .addEventListener('submit', function(event) {
@@ -251,10 +252,21 @@ if(!isValidEmail){
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       emailButton.value = 'Send Email';
-	  formEmail.reset();      
+	  formEmail.reset();
+	  document.getElementById("emailNotification").innerHTML = "We have received your information, one of our agents will contact you soon.";
+	  // Clear text after 15 seconds
+        setTimeout(function() {
+            document.getElementById("emailNotification").innerHTML = "";
+        }, 15000); // 15000 milliseconds = 15 seconds	
     }, (err) => {
       emailButton.value = 'Send Email';
 	  formEmail.reset();
+	  document.getElementById("emailNotification").innerHTML = "Error, your message could not be sent";
+	  // Clear text after 15 seconds
+        setTimeout(function() {
+            document.getElementById("emailNotification").innerHTML = "";
+        }, 15000); // 15000 milliseconds = 15 seconds
+	  
     });
 });
 
@@ -263,5 +275,12 @@ function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
+
+// Function to clear text
+function clearEmailNotification() {
+	const emailNotification = document.getElementById('emailNotification');
+	emailNotification.value = '';
+}
+
 
 //End EmailJS
