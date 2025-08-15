@@ -141,7 +141,7 @@
                 <div class="row">
                     <div class="templatemo-line-header" style="margin-top: 0px;" >
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="span_blog txt_darkgrey" id="headerService">SERVICES</span>
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="span_blog txt_darkgrey" id="headerService"><b>SERVICES</b></span>
                             <hr class="team_hr team_hr_right hr_gray" />
                         </div>
                     </div>                    
@@ -165,6 +165,7 @@
                                 <div class="clearfix"> </div>
                                 <p class="blog_text" id="blog5">
                                     In Florida a Notary Public is authorized to perform wedding ceremonies.
+									We officiate your wedding wherever and whenever you want within South Florida.
                                 </p>
                             </li>
                         </ul>
@@ -185,7 +186,7 @@
                                 </div>
                                 <div class="clearfix"> </div>
                                 <p class="blog_text" id="blog2">
-                                Exit Permit and Apostille. Obtaining this document and its corresponding Apostille ensures that the minor can travel safely and legally. </p>
+                                Travel permits may be issued by one of the minor's representatives, or failing that, by the minor's guardian. Obtaining this document and its corresponding Apostille ensures that the minor can travel safely and legally. </p>
                             </li>
                         </ul>	
                     </div><!-- /.blog_post 2 -->
@@ -280,12 +281,43 @@
             </div>
         </div>
 		
+		<div id="templatemo-price">
+			<div class="container">
+				<div class="row">
+				<div class="templatemo-line-header">                        
+						<div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" id="ourPrices"><b>OUR PRICES</b></span>
+                            <hr class="team_hr team_hr_right hr_gray"/>
+                        </div>
+                </div>
+				<div class="displayHorizontal">
+					<div class="colMarginRight5"><b>
+						<h4 id="pricesStandars"><b>Standard Fees:</b></h4>
+						<h5 id="pricesService" class="txt_orange">Service</h5><br>
+						<p>Notarial Signing (per document)</p>
+						<p>Travel</p>
+						<p>After-Hours Service</p>
+						<p>Special Loan Packages</p></b>
+					</div>
+					<div class="colMarginRight5 marginTop1pc">
+						<br>					
+						<h5 id="pricesFee"class="txt_orange">Fee</h5><br>
+						<p>$8</p>
+						<p>Rate depending on distance</p>
+						<p>+$25 - $50 (nights, weekends, holidays)</p>
+						<p>+$75 - $150 (depending on travel and compexity)</p>
+					</div>
+				</div>
+				</div>
+			</div>	
+		</div>
+		
 		<div id="templatemo-forms" class="marginButtonForm">
 			<div class="container">
 				<div class="row">
 				<div class="templatemo-line-header">                        
 						<div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" id="forms">FORMS</span>
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" id="forms"><b>FORMS</b></span>
                             <hr class="team_hr team_hr_right hr_gray"/>
                         </div>
                 </div>
@@ -328,7 +360,7 @@
                 <div class="row">
                     <div class="templatemo-line-header">
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left"/><span id="aboutHeader">GET TO KNOW US</span>
+                            <hr class="team_hr team_hr_left"/><span id="aboutHeader"><b>GET TO KNOW US</b></span>
                             <hr class="team_hr team_hr_right" />
                         </div>
                     </div>
@@ -384,7 +416,7 @@
                 <div class="row">
                     <div class="templatemo-line-header head_contact">
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" id="contactHeader">CONTACT US</span>
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey" id="contactHeader"><b>CONTACT US</b></span>
                             <hr class="team_hr team_hr_right hr_gray"/>
                         </div>
                     </div>
@@ -409,27 +441,23 @@
                     <div class="col-md-4 contact_right">
                         <div>
 						<form id="formEmail">
+							<h4 class="txt_orange" id="emailHeader">Send us a message</h4>							  
 							  <div class="marginBtn10">
-								<label for="title" class="emailLabel">Subject</label>
-								<input type="text" name="title" id="title" size="70" class="fieldEmail" placeholder="Enter your subject here">
-							  </div>
-							  <div class="marginBtn10">
-								<label for="name" class="emailLabel">Your name <sup><i class="fa fa-asterisk" style="font-size:6px;color:red"></i></sup></label>
-								<input type="text" name="name" id="name" size="40" class="fieldEmail" placeholder="Enter your name here">
-							  </div>
-							  <div class="marginBtn10">
-								<label for="time" class="emailLabel">Phone Number</label>
-								<input type="number" name="time" id="time" class="fieldEmail" placeholder="+1 (555) 1234-567">
-							  </div>							  
-							  <div class="marginBtn10">
-								<label for="message" class="emailLabel">Message <sup><i class="fa fa-asterisk" style="font-size:6px;color:red"></i></sup></label>
-								<textarea id="message" name="message" rows="7" cols="100" class="fieldEmail"></textarea>
+								<label for="name" class="emailLabel" id="emailName">Name and surname <sup><i class="fa fa-asterisk" style="font-size:6px;color:red"></i></sup></label>
+								<input type="text" name="name" id="name" size="40" class="fieldEmail" placeholder="Name and surname">
 							  </div>
 							  <div class="marginBtn10">
 								<label for="email" class="emailLabel">Email <sup><i class="fa fa-asterisk" style="font-size:6px;color:red"></i></sup></label>
 								<input type="text" name="email" id="email" size="60" class="fieldEmail" placeholder="Enter your email here">
 							  </div>
-
+							  <div class="marginBtn10">
+								<label for="time" class="emailLabel" id="emailPhone">Telephone number</label>
+								<input type="number" name="time" id="time" class="fieldEmail" placeholder="+1 (555) 1234-567">
+							  </div>							  
+							  <div class="marginBtn10">
+								<label for="message" class="emailLabel" id="emailMessage">Message <sup><i class="fa fa-asterisk" style="font-size:6px;color:red"></i></sup></label>
+								<textarea id="message" name="message" rows="7" cols="100" class="fieldEmail"></textarea>
+							  </div>
 							  <input type="submit" id="emailButton" class="btnEmail" value="Send Email">
 							  <p id="emailNotification" class="notificacionText"><b></b></p>
 							</form>
