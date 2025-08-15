@@ -111,13 +111,13 @@ function changeLanguage(){
 				document.getElementById("blogHeader1").innerHTML = "WHAT DOES A NOTARY PUBLIC DO?";
 				document.getElementById("blog1").innerHTML = "We help with personal documents like wills, power of attorney forms, affidavits, and school permission slips. Whether it’s for legal, medical, or financial purposes, we ensure your documents are properly notarized.";
 				document.getElementById("blogHeader2").innerHTML = "EXIT PERMIT FOR MINORS";
-				document.getElementById("blog2").innerHTML = "Exit Permit and Apostille. Obtaining this document and its corresponding Apostille ensures that the minor can travel safely and legally.";
+				document.getElementById("blog2").innerHTML = "Travel permits may be issued by one of the minor's representatives, or failing that, by the minor's guardian. Obtaining this document and its corresponding Apostille ensures that the minor can travel safely and legally.";
 				document.getElementById("blogHeader3").innerHTML = "MORTGAGE SIGNING & LEASES";
 				document.getElementById("blog3").innerHTML = "It is used in leases, sales, in communications to the city council regarding new properties transferred or created, in the establishment of usufructs and rents, or in the creation of the real estate registry of properties.";
 				document.getElementById("blogHeader4").innerHTML = "INHERITANCES";
 				document.getElementById("blog4").innerHTML = "Regarding inheritances, a notary public is necessary for making a will, but also for a declaration of intestate heirs or the submission of forms to the registry of last wills, informing beneficiaries of legacies or inheritances they are unaware of, participating in the payment of inheritance taxes or the division of an inheritance, etc.";
 				document.getElementById("blogHeader5").innerHTML = "WEDDINGS";
-				document.getElementById("blog5").innerHTML = "In Florida a Notary Public is authorized to perform wedding ceremonies";
+				document.getElementById("blog5").innerHTML = "In Florida a Notary Public is authorized to perform wedding ceremonies. We officiate your wedding wherever and whenever you want within South Florida.";
 				document.getElementById("blogHeader6").innerHTML = "CONTRACTS AND AFFIDAVITS";
 				document.getElementById("blog6").innerHTML = "A notary public affidavit is a written statement made under oath, where the person making the statement (the affiant) swears to the truthfulness of its contents.";
 				document.getElementById("aboutHeader").innerHTML = "GET TO KNOW US";
@@ -130,7 +130,16 @@ function changeLanguage(){
 				document.getElementById("tweets1").innerHTML = "Your trust is a priceless gift that motivates us to continue offering the best in every service.";
 				document.getElementById("goTopBtn").innerHTML = "Back To Top &#9757;";
 				document.getElementById("forms").innerHTML = "FORMS";
-				document.getElementById("buttonForms").innerHTML = "Show Forms";				
+				document.getElementById("buttonForms").innerHTML = "Show Forms";
+				document.getElementById("emailHeader").innerHTML = "Send us a message";	
+				document.getElementById("emailName").innerHTML = "Name and surname";
+				document.getElementById("emailPhone").innerHTML = "Telephone number";
+				document.getElementById("emailMessage").innerHTML = "Message";
+				document.getElementById("emailButton").value = "Send Email";
+				document.getElementById("ourPrices").innerHTML = "OUR PRICES";
+				document.getElementById("pricesStandars").innerHTML = "Standard Fees:";
+				document.getElementById("pricesService").innerHTML = "Service";
+				document.getElementById("pricesFee").innerHTML = "Fee";
 				break;
 			case "es":
 				document.getElementById("menuHome").innerHTML = "INICIO";
@@ -156,13 +165,13 @@ function changeLanguage(){
 				document.getElementById("blogHeader1").innerHTML = "¿QUÉ HACE UN NOTARY PUBLIC?";
 				document.getElementById("blog1").innerHTML = "Ayudamos con documentos personales como testamentos, poderes notariales, declaraciones juradas y permisos escolares. Ya sea para fines legales, médicos o financieros, nos aseguramos de que sus documentos estén debidamente notariados.";
 				document.getElementById("blogHeader2").innerHTML = "PERMISO DE SALIDA PARA MENORES";
-				document.getElementById("blog2").innerHTML = "Permiso de Salida y Apostilla. Obtener este documento y su correspondiente Apostilla garantiza que el menor pueda viajar de forma segura y legal.";
+				document.getElementById("blog2").innerHTML = "Los permisos de viaje pueden ser emitidos por uno de los representantes del menor o, en su defecto, por su tutor. Obtener este documento y su correspondiente apostilla garantiza que el menor pueda viajar de forma segura y legal.";
 				document.getElementById("blogHeader3").innerHTML = "FIRMA DE HIPOTECA y ARRENDAMIENTOS";
 				document.getElementById("blog3").innerHTML = "Se utiliza en arrendamientos, compraventas, en las comunicaciones al ayuntamiento sobre nuevas fincas transmitidas o creadas, en la constitución de usufructos y rentas, o en la creación del registro inmobiliario de propiedades.";
 				document.getElementById("blogHeader4").innerHTML = "HERENCIAS";
 				document.getElementById("blog4").innerHTML = "En materia de herencias, es necesario un notario público para hacer testamento, pero también para la declaración de herederos intestado o la presentación de formularios en el registro de últimas voluntades, informar a los beneficiarios de legados o herencias que desconocen, participar en el pago del impuesto de sucesiones o en la división de una herencia, etc.";
 				document.getElementById("blogHeader5").innerHTML = "BODAS";
-				document.getElementById("blog5").innerHTML = "En Florida, un notario público está autorizado para realizar ceremonias de boda.";
+				document.getElementById("blog5").innerHTML = "En Florida, un notario público está autorizado para realizar ceremonias de boda. Oficializamos tu boda donde y cuando quieras dentro del sur de Florida.";
 				document.getElementById("blogHeader6").innerHTML = "CONTRATOS Y DECLARACIONES JURADAS";
 				document.getElementById("blog6").innerHTML = "Una declaración jurada notarial pública es una declaración escrita hecha bajo juramento, donde la persona que hace la declaración (el declarante) jura la veracidad de su contenido.";
 				document.getElementById("aboutHeader").innerHTML = "CONÓCENOS";
@@ -176,6 +185,15 @@ function changeLanguage(){
 				document.getElementById("goTopBtn").innerHTML = "Volver arriba &#9757;";
 				document.getElementById("forms").innerHTML = "FORMULARIOS";
 				document.getElementById("buttonForms").innerHTML = "Mostrar Formularios";
+				document.getElementById("emailHeader").innerHTML = "Envíanos un mensaje";	
+				document.getElementById("emailName").innerHTML = "Nombre y apellidos";
+				document.getElementById("emailPhone").innerHTML = "Teléfono";
+				document.getElementById("emailMessage").innerHTML = "Mensaje";
+				document.getElementById("emailButton").value = "Enviar";
+				document.getElementById("ourPrices").innerHTML = "NUESTROS PRECIOS";
+				document.getElementById("pricesStandars").innerHTML = "Tarifas estándar";
+				document.getElementById("pricesService").innerHTML = "Servicio";
+				document.getElementById("pricesFee").innerHTML = "Honorarios";
 				break;
 		}		
 	}
