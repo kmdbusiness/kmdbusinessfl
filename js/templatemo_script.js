@@ -190,7 +190,7 @@ function changeLanguage(){
 				document.getElementById("emailPhone").innerHTML = "Teléfono";
 				document.getElementById("emailMessage").innerHTML = "Mensaje";
 				document.getElementById("emailButton").value = "Enviar";
-				document.getElementById("ourPrices").innerHTML = "NUESTROS PRECIOS";
+				document.getElementById("ourPrices").innerHTML = "PRECIOS";
 				document.getElementById("pricesStandars").innerHTML = "Tarifas estándar";
 				document.getElementById("pricesService").innerHTML = "Servicio";
 				document.getElementById("pricesFee").innerHTML = "Honorarios";
