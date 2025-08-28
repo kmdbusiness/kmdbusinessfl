@@ -479,58 +479,36 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .social-icon-fb {
-    background: url('../images/social-icon-fb.png') no-repeat;
+    background: url('../images/facebook.png') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
 }
 
 a:hover .social-icon-fb {
-    background: url('../images/social-icon-fb-over.png') no-repeat;
+    background: url('../images/facebook.png') no-repeat;
 }
 
-.social-icon-rss {
-    background: url('../images/social-icon-rss.png') no-repeat;
+.social-icon-instagram {
+    background: url('../images/instagram.png') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
 }
 
-a:hover .social-icon-rss {
-    background: url('../images/social-icon-rss-over.png') no-repeat;
+a:hover .social-icon-instagram {
+    background: url('../images/instagram.png') no-repeat;
 }
 
-.social-icon-twitter {
-    background: url('../images/social-icon-twitter.png') no-repeat;
+.social-icon-threads {
+    background: url('../images/threads.png') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
 }
 
-a:hover .social-icon-twitter {
-    background: url('../images/social-icon-twitter-over.png') no-repeat;
-}
-
-.social-icon-linkedin {
-    background: url('../images/social-icon-linkedin.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-linkedin {
-    background: url('../images/social-icon-linkedin-over.png') no-repeat;
-}
-
-.social-icon-dribbble {
-    background: url('../images/social-icon-dribbble.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-dribbble {
-    background: url('../images/social-icon-dribbble-over.png') no-repeat;
+a:hover .social-icon-threads {
+    background: url('../images/threads.png') no-repeat;
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
