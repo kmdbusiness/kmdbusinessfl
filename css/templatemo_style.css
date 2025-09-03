@@ -815,5 +815,5 @@ ul.templatemo-project-gallery  li  a img:hover {
         }
 .whatsapp-link:hover {
    background-color: #60f397; /* Un verde más oscuro al pasar el ratón */
-   color: 2f72f1;
+   color: 2f72f1 !important;
 }
