@@ -140,6 +140,7 @@ function changeLanguage(){
 				document.getElementById("pricesStandars").innerHTML = "Standard Fees:";
 				document.getElementById("pricesService").innerHTML = "Service";
 				document.getElementById("pricesFee").innerHTML = "Fee";
+				document.getElementById("chatWhatapp").innerHTML = "Chat with us on WhatsApp";
 				break;
 			case "es":
 				document.getElementById("menuHome").innerHTML = "INICIO";
@@ -194,6 +195,7 @@ function changeLanguage(){
 				document.getElementById("pricesStandars").innerHTML = "Tarifas estándar";
 				document.getElementById("pricesService").innerHTML = "Servicio";
 				document.getElementById("pricesFee").innerHTML = "Honorarios";
+				document.getElementById("chatWhatapp").innerHTML = "Chatea con nosotros por Whatsapp";
 				break;
 		}		
 	}
