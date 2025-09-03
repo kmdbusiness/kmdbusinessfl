@@ -801,3 +801,19 @@ ul.templatemo-project-gallery  li  a img:hover {
  .marginTop1pc {
 	 margin-top: 1%;
  }
+ 
+ .whatsapp-link {
+            display: inline-block;
+            background-color: #2ce370; /* Color verde de WhatsApp */
+            color: white !important;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 10px !important;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+        }
+.whatsapp-link:hover {
+   background-color: #60f397; /* Un verde más oscuro al pasar el ratón */
+   color: 2f72f1;
+}
